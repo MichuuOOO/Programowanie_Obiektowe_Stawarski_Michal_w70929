@@ -1,0 +1,14 @@
+D:\programowanie\Lab1\Zad7\bin\Debug\net8.0\Zad7.exe
+D:\programowanie\Lab1\Zad7\bin\Debug\net8.0\Zad7.deps.json
+D:\programowanie\Lab1\Zad7\bin\Debug\net8.0\Zad7.runtimeconfig.json
+D:\programowanie\Lab1\Zad7\bin\Debug\net8.0\Zad7.dll
+D:\programowanie\Lab1\Zad7\bin\Debug\net8.0\Zad7.pdb
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.GeneratedMSBuildEditorConfig.editorconfig
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.AssemblyInfoInputs.cache
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.AssemblyInfo.cs
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.csproj.CoreCompileInputs.cache
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.dll
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\refint\Zad7.dll
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.pdb
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\Zad7.genruntimeconfig.cache
+D:\programowanie\Lab1\Zad7\obj\Debug\net8.0\ref\Zad7.dll
