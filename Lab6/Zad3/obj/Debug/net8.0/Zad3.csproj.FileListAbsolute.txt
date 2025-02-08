@@ -1,0 +1,14 @@
+D:\programowanie\Lab6\Zad3\bin\Debug\net8.0\Zad3.exe
+D:\programowanie\Lab6\Zad3\bin\Debug\net8.0\Zad3.deps.json
+D:\programowanie\Lab6\Zad3\bin\Debug\net8.0\Zad3.runtimeconfig.json
+D:\programowanie\Lab6\Zad3\bin\Debug\net8.0\Zad3.dll
+D:\programowanie\Lab6\Zad3\bin\Debug\net8.0\Zad3.pdb
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.GeneratedMSBuildEditorConfig.editorconfig
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.AssemblyInfoInputs.cache
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.AssemblyInfo.cs
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.csproj.CoreCompileInputs.cache
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.dll
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\refint\Zad3.dll
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.pdb
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\Zad3.genruntimeconfig.cache
+D:\programowanie\Lab6\Zad3\obj\Debug\net8.0\ref\Zad3.dll
