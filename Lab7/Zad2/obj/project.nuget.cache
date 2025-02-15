@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QpjOj5o6r8g=",
+  "success": true,
+  "projectFilePath": "D:\\programowanie\\Lab7\\Zad2\\Zad2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\michu\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
