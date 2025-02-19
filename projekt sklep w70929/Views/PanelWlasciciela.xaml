@@ -1,0 +1,21 @@
+﻿<Window x:Class="Sklep.Views.PanelWlasciciela"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Panel Właściciela" Height="600" Width="900"
+        Background="#2C2C2C">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Panel Właściciela" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" Grid.Row="0" />
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
+            <Button Content="Zarządzanie Produktami" Width="300" Height="50" Margin="10" Foreground="White" Background="#3A9AD9" Click="BtnZarzadzanieProduktami_Click" />
+            <Button Content="Zarządzanie Klientami" Width="300" Height="50" Margin="10" Foreground="White" Background="#2ECC71" Click="BtnZarzadzanieKlientami_Click" />
+            <Button Content="Zarządzanie Pracownikami" Width="300" Height="50" Margin="10" Foreground="White" Background="#9B59B6" Click="BtnZarzadzaniePracownikami_Click" />
+            <Button Content="Panel Sprzedaży" Width="300" Height="50" Margin="10" Foreground="White" Background="#F39C12" Click="BtnPanelSprzedazy_Click" />
+            <Button Content="Raport Sprzedaży" Width="300" Height="50" Margin="10" Background="#3498DB" Foreground="White" Click="BtnRaportSprzedazy_Click"  />            
+            <Button Content="Wyloguj" Width="300" Height="50" Margin="10" Foreground="White" Background="#E74C3C" Click="BtnWyloguj_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

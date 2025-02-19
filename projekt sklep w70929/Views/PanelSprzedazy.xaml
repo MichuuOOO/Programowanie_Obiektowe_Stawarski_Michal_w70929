@@ -1,0 +1,83 @@
+﻿<Window x:Class="Sklep.Views.PanelSprzedazy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Panel Sprzedaży" Height="800" Width="1200" Background="#2C2C2C">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Panel Sprzedaży" Foreground="White" FontSize="28" FontWeight="Bold"
+                   HorizontalAlignment="Center" Margin="0,0,0,20" Grid.Row="0" />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <TextBox x:Name="txtSearch" Width="300" Height="30" Margin="10" VerticalContentAlignment="Center" />
+            <Button Content="Szukaj" Width="100" Height="30" Background="#3498DB" Foreground="White"
+                    Click="BtnSzukaj_Click" />
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="0,0,107,0">
+                <TextBlock Text="Lista Produktów" Foreground="White" FontSize="18" Margin="0,0,0,10" />
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <DataGrid x:Name="dgProdukty"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  Background="#3C3C3C"
+                  Foreground="Black"
+                  FontSize="14"
+                  SelectionChanged="DgProdukty_SelectionChanged"
+                  HorizontalGridLinesBrush="Gray"
+                  VerticalGridLinesBrush="Gray"
+                  GridLinesVisibility="All"
+                  Height="433" Width="665">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Nazwa" Binding="{Binding Nazwa}" Width="*" />
+                            <DataGridTextColumn Header="Kategoria" Binding="{Binding Kategoria}" Width="*" />
+                            <DataGridTextColumn Header="Cena Detaliczna" Binding="{Binding CenaDetaliczna, StringFormat={}{0:N2} zł}" Width="*" />
+                            <DataGridTextColumn Header="Cena Hurtowa" Binding="{Binding CenaHurtowa, StringFormat={}{0:N2} zł}" Width="*" />
+                            <DataGridTextColumn Header="Stan Magazynowy" Binding="{Binding StanMagazynowy}" Width="*" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </ScrollViewer>
+            </StackPanel>
+            <StackPanel Grid.ColumnSpan="2" Margin="690,0,0,-10">
+                <TextBlock Text="Wybierz Klienta" Foreground="White" FontSize="18" Margin="0,0,0,10" />
+                <ComboBox x:Name="cmbKlienci" Width="300" Margin="0,0,0,10" SelectionChanged="CmbKlienci_SelectionChanged" />
+                <TextBlock x:Name="txtSaldo" Text="Saldo: " Foreground="White" FontSize="16" Margin="0,0,0,20" />
+                <TextBlock Text="Podsumowanie Transakcji" Foreground="White" FontSize="18" Margin="0,10,0,10" />
+                <StackPanel>
+                    <TextBlock x:Name="txtSaldoPrzed" Text="Saldo przed transakcją: " Foreground="White" FontSize="16" />
+                    <TextBlock x:Name="txtKwotaNalezna" Text="Kwota należna: " Foreground="White" FontSize="16" />
+                    <TextBlock x:Name="txtSaldoPo" Text="Saldo po transakcji: " Foreground="White" FontSize="16" />
+                </StackPanel>
+                <TextBlock Text="Koszyk" Foreground="White" FontSize="18" Margin="0,10,0,10" />
+                <DataGrid x:Name="dgKoszyk" AutoGenerateColumns="False" CanUserAddRows="False" Background="#3C3C3C"
+                          Foreground="Black" FontSize="14" HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray" Height="133" HorizontalScrollBarVisibility="Disabled" Width="405">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Produkt" Binding="{Binding Nazwa}" Width="Auto" />
+                        <DataGridTextColumn Header="Cena" Binding="{Binding Cena, StringFormat=\{0:N2\} zł}" Width="Auto" />
+                        <DataGridTextColumn Header="Ilość" Binding="{Binding Ilosc}" Width="Auto" />
+                        <DataGridTextColumn Header="Razem" Binding="{Binding Razem, StringFormat=\{0:N2\} zł}" Width="Auto" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                    <Button Content="Dodaj Do Koszyka" Width="150" Margin="10" Background="#3498DB" Foreground="White"
+                            Click="BtnDodajDoKoszyka_Click" />
+                    <Button Content="Usuń Z Koszyka" Width="150" Margin="10" Background="#E74C3C" Foreground="White"
+                            Click="BtnUsunZKoszyka_Click" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button Content="Zamknij" Width="150" Margin="10" Background="#E74C3C" Foreground="White"
+                    Click="BtnZamknij_Click" />
+            <Button Content="Finalizuj Zakup" Width="200" Margin="10" Background="#2ECC71" Foreground="White"
+                    Click="BtnFinalizujZakup_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

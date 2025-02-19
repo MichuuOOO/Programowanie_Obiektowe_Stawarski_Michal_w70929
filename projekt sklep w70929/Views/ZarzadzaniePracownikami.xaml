@@ -1,0 +1,52 @@
+﻿<Window x:Class="Sklep.Views.ZarzadzaniePracownikami"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zarządzanie Pracownikami" Height="700" Width="1000"
+        Background="#2C2C2C">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Zarządzanie Pracownikami" Foreground="White" FontSize="28" FontWeight="Bold"
+                   HorizontalAlignment="Center" Margin="0,0,0,20" Grid.Row="0" />
+        <DataGrid x:Name="dgPracownicy" Grid.Row="1" AutoGenerateColumns="True" CanUserAddRows="False"
+                  Background="#3C3C3C" Foreground="Black" FontSize="14" 
+                  HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray"
+                  SelectionChanged="DgPracownicy_SelectionChanged" />
+        <StackPanel Grid.Row="2" Orientation="Vertical" Margin="0,20,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <TextBox x:Name="txtImie" Width="150" Margin="5" Text="Imię" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtNazwisko" Width="150" Margin="5" Text="Nazwisko" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtEmail" Width="200" Margin="5" Text="Email" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtTelefon" Width="150" Margin="5" Text="Telefon" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <TextBox x:Name="txtAdres" Width="300" Margin="5" Text="Adres" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtStanowisko" Width="150" Margin="5" Text="Stanowisko" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtPensja" Width="150" Margin="5" Text="Pensja" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <TextBox x:Name="txtLogin" Width="150" Margin="5" Text="Login" Foreground="Gray"
+                         GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                <PasswordBox x:Name="txtHaslo" Width="150" Margin="5" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Dodaj Pracownika" Width="150" Margin="10" Background="#2ECC71" Foreground="White"
+                        Click="BtnDodajPracownika_Click" />
+                <Button Content="Usuń Pracownika" Width="150" Margin="10" Background="#E74C3C" Foreground="White"
+                        Click="BtnUsunPracownika_Click" />
+                <Button Content="Edytuj Pracownika" Width="150" Margin="10" Background="#3498DB" Foreground="White"
+                        Click="BtnEdytujPracownika_Click" />
+                <Button Content="Zamknij" Width="150" Margin="10" Background="#E74C3C" Foreground="White"
+                        Click="BtnZamknij_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

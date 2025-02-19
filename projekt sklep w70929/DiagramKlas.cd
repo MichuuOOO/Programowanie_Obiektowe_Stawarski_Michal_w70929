@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sklep.Views.PanelKlienta" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\PanelKlienta.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.PanelPracownika" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAABCAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\PanelPracownika.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.PanelSprzedazy" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIACAAAAAEQJAAQAAABCAAAAAAAIBAAABAAAAAAAAE=</HashCode>
+      <FileName>Views\PanelSprzedazy.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sklep.Views.PanelWlasciciela" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAABCAAAAgAAAACAAAgAAAAAAAA=</HashCode>
+      <FileName>Views\PanelWlasciciela.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.RaportSprzedazy" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Views\RaportSprzedazy.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.ZarzadzanieKlientami" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAgAAAAAGAAAAAAIAAAABAAAAAAAAAE=</HashCode>
+      <FileName>Views\ZarzadzanieKlientami.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.ZarzadzaniePracownikami" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQCAAAAAAAAEAAhACAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ZarzadzaniePracownikami.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Views.ZarzadzanieProduktami" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQACAAAAAAAAAAAEAAABCAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ZarzadzanieProduktami.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Models.Klient">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQAKAAAAAAAAAAAAAAAAgAAAAAAAIABACBAAI=</HashCode>
+      <FileName>Models\Klient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sklep.Models.Koszyk" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAIIAAAgAAgAAAAAAAAAAggAACAAA=</HashCode>
+      <FileName>Models\Koszyk.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sklep.Models.Pracownik">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAKAAAAAAAAAAAAIAAAgAAAAAAAAQAQABAAE=</HashCode>
+      <FileName>Models\Pracownik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sklep.Models.Produkt">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAIACAAAAAAAAAgAAAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>Models\Produkt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sklep.Models.Uzytkownik">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Uzytkownik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sklep.Helpers.ValidationHelper">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Helpers\ValidationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sklep.Data.DatabaseHelper">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAABACAAAAAAAAA=</HashCode>
+      <FileName>Data\Databasehelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
